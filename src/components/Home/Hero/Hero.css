@@ -13,6 +13,7 @@
     position: relative;
     z-index: 1;
   }
+
   #hero-1623 .cs-container {
     width: 100%;
     max-width: 80rem;
@@ -23,6 +24,7 @@
     align-items: center;
     gap: 3rem;
   }
+
   #hero-1623 .cs-content {
     --cornerWidth: 8.75rem;
     --cornerHeight: 8.75rem;
@@ -39,6 +41,17 @@
     position: relative;
     z-index: 1;
   }
+
+  #hero-1623 .cs-subtext {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.6;
+    text-align: center;
+    max-width: clamp(29rem, 60vw, 38rem);
+    margin: 0 auto 2rem;
+    color: #fff;
+    opacity: 0.95;
+  }
+
   #hero-1623 .cs-content:before {
     /* top left corner */
     content: '';
@@ -56,6 +69,7 @@
     left: 0;
     z-index: -1;
   }
+
   #hero-1623 .cs-content:after {
     /* top right corner */
     content: '';
@@ -73,6 +87,7 @@
     right: 0;
     z-index: -1;
   }
+
   #hero-1623 .cs-corners {
     height: 100%;
     width: 100%;
@@ -81,6 +96,7 @@
     left: 0;
     z-index: -1;
   }
+
   #hero-1623 .cs-corners:before {
     /* bottom left corner */
     content: '';
@@ -98,6 +114,7 @@
     left: 0;
     z-index: -1;
   }
+
   #hero-1623 .cs-corners:after {
     /* bottom right corner */
     content: '';
@@ -115,6 +132,7 @@
     right: 0;
     z-index: -1;
   }
+
   #hero-1623 .cs-topper {
     /* 13px - 16px */
     font-size: clamp(0.8125rem, 1.5vw, 1rem);
@@ -123,19 +141,23 @@
     letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 0.25rem;
+    margin-bottom: 2rem;
     color: var(--primary);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
     position: relative;
+    white-space: nowrap;
   }
+
   #hero-1623 .cs-chevron {
     --chevronColor: var(--primary);
     width: 3rem;
     height: auto;
+    opacity: .5;
   }
+
   #hero-1623 .cs-title {
     /* 39px - 61px */
     font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
@@ -148,6 +170,7 @@
     color: #fff;
     position: relative;
   }
+
   #hero-1623 .cs-text {
     /* 16px - 20px */
     font-size: clamp(1rem, 1.95vw, 1.25rem);
@@ -160,6 +183,7 @@
     margin-bottom: 2rem;
     color: #fff;
   }
+
   #hero-1623 .cs-button-solid {
     font-size: 1rem;
     /* 46px - 56px */
@@ -178,6 +202,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
+
   #hero-1623 .cs-button-solid:before {
     content: "";
     position: absolute;
@@ -190,12 +215,15 @@
     z-index: -1;
     transition: width 0.3s;
   }
+
   #hero-1623 .cs-button-solid:hover:before {
     width: 100%;
   }
-  #hero-1623 .cs-button-solid:hover{
+
+  #hero-1623 .cs-button-solid:hover {
     color: white;
   }
+
   #hero-1623 .cs-background {
     width: 100%;
     height: 100%;
@@ -205,6 +233,7 @@
     left: 0;
     z-index: -2;
   }
+
   #hero-1623 .cs-background:before {
     /* Overlay */
     content: "";
@@ -220,6 +249,7 @@
     /* prevents the cursor from interacting with it */
     pointer-events: none;
   }
+
   #hero-1623 .cs-background img {
     position: absolute;
     top: 0;
@@ -229,6 +259,7 @@
     object-fit: cover;
   }
 }
+
 /* Large Desktop - Parallax Effect - 1600px */
 @media only screen and (min-width: 100rem) {
   #hero-1623 {
@@ -237,7 +268,5 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  
-}
 
-                                
+}

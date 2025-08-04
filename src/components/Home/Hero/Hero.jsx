@@ -36,10 +36,13 @@ export default function Hero() {
           </span>
 
           <h1 className="cs-title scroll-fade delay-3">
-            Transform Your Home With Expert Painting & Finishing
+            Residential & Commercial Painter in Modesto, CA
           </h1>
+          <p className="cs-subtext scroll-fade delay-3">
+            Modesto Paint Pros offers interior and exterior painting for homes, businesses, and remodels throughout the Modesto area. Quality, speed, and no mess.
+          </p>
 
-          <a href="/contact" className="cs-button-solid scroll-fade delay-4">Get Started</a>
+          <a href="/contact" className="cs-button-solid scroll-fade delay-4">Get a Free Quote</a>
 
           <div className="cs-corners" aria-hidden="true"></div>
         </div>
