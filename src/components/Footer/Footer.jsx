@@ -8,25 +8,13 @@ export default function Footer() {
     return (
         <footer id="footer-2345">
             <div className="cs-container">
-                {/* 
-                <div className="cs-cta">
-                    <h2 className="cs-title">
-                        Ready to Transform Your Home?
-                        Leave us a message and a team member will reach out shortly. We’re excited to bring your vision to life with a fresh coat of paint!
-                    </h2>
-                    <Link to="/contact" className="cs-button-solid">
-                        Contact Us Today!
-                    </Link>
-                </div> 
-                */}
-
                 <div className="cs-wrapper">
                     <div className="cs-content">
                         <Link to="/" className="cs-logo">
                             <img
                                 className="cs-logo-img"
                                 src={logo}
-                                alt="logo"
+                                alt="Modesto Paint Pros company logo"
                                 width="174"
                                 height="28"
                                 loading="lazy"
@@ -35,8 +23,7 @@ export default function Footer() {
                         </Link>
 
                         <p className="cs-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Repudiandae nemo quo, ea animi libero facilis voluptates.
+                            Modesto Paint Pros is your trusted local team for interior and exterior painting. Proudly serving homeowners and businesses throughout Stanislaus County.
                         </p>
 
                         <ul className="cs-nav">
@@ -61,11 +48,11 @@ export default function Footer() {
                     <ul className="cs-ul">
                         <li className="cs-li">
                             <span className="cs-header">Phone Number</span>
-                            <a href="tel:+15552866985" className="cs-contact">+1 555-555-5555</a>
+                            <a href="tel:+19256832180" className="cs-contact">+1 (209) 555-1234</a>
                         </li>
                         <li className="cs-li">
                             <span className="cs-header">Email Address</span>
-                            <a href="mailto:Template@gmail.com" className="cs-contact">Template@gmail.com</a>
+                            <a href="mailto:info@modestopaintpros.com" className="cs-contact">info@modestopaintpros.com</a>
                         </li>
                         <li className="cs-li">
                             <span className="cs-header">Office Hours</span>
@@ -74,8 +61,8 @@ export default function Footer() {
                         <li className="cs-li">
                             <span className="cs-header">Office Address</span>
                             <span className="cs-contact">
-                                5555 Placeholder Rd, <br />
-                                Somewhere, CA, 12345
+                                1436 Sutter Ave, <br />
+                                Modesto, CA, 95354
                             </span>
                         </li>
                     </ul>
@@ -83,13 +70,13 @@ export default function Footer() {
 
                 <div className="cs-bottom">
                     <span className="cs-copyright">
-                        © Copyright {new Date().getFullYear()} - <Link className="cs-copyright-link" to="/">Company Name</Link>
+                        © Copyright {new Date().getFullYear()} - <Link className="cs-copyright-link" to="/">Modesto Paint Pros</Link>
                     </span>
-                    <div className="cs-terms">
+                    {/* <div className="cs-terms">
                         <Link to="/terms" className="cs-copyright-link">Terms & Conditions</Link>
                         <span className="cs-divider">|</span>
                         <Link to="/privacy" className="cs-copyright-link">Privacy Policy</Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

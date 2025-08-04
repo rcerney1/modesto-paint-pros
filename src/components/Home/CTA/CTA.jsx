@@ -13,53 +13,38 @@ export default function CTA() {
         <section id="cta-1132">
             <div className="cs-container">
                 <div className="cs-content">
-                    <span className="cs-topper">Need a Fresh Coat?</span>
+                    <span className="cs-topper">Need a Fresh Coat of Paint in Modesto?</span>
                     <h2 className="cs-title">
-                        Let’s bring your vision to life with expert home painting
+                        Let’s bring your vision to life with expert painting services
                     </h2>
-                    <Link to="/contact" className="cs-button-solid">
-                        Contact Us
+                    <Link to="/contact" className="cs-button-solid" aria-label="Get a free painting estimate in Modesto">
+                        Get a Free Estimate
                     </Link>
                 </div>
             </div>
 
             <picture className="cs-background">
-                <source
-                    media="(max-width: 600px)"
-                    srcSet={paintMobile}
-                />
-                <source
-                    media="(min-width: 601px)"
-                    srcSet={paintDesktop}
-                />
+                <source media="(max-width: 600px)" srcSet={paintMobile} />
+                <source media="(min-width: 601px)" srcSet={paintDesktop} />
                 <img
                     loading="lazy"
                     decoding="async"
                     src={paintDesktop}
-                    alt="family"
+                    alt="Open paint cans and brush strokes used in Modesto painting projects"
                     width="1280"
                     height="568"
                 />
             </picture>
 
             <picture className="cs-graphic cs-light">
-                <source
-                    media="(max-width: 600px)"
-                    srcSet={splashMobile}
-                />
-                <source
-                    media="(max-width: 1023px)"
-                    srcSet={splashTablet}
-                />
-                <source
-                    media="(min-width: 1024px)"
-                    srcSet={splashDesktop}
-                />
+                <source media="(max-width: 600px)" srcSet={splashMobile} />
+                <source media="(max-width: 1023px)" srcSet={splashTablet} />
+                <source media="(min-width: 1024px)" srcSet={splashDesktop} />
                 <img
                     loading="lazy"
                     decoding="async"
                     src={splashDesktop}
-                    alt="graphic"
+                    alt="Paint splash graphic"
                     width="1920"
                     height="108"
                     aria-hidden="true"

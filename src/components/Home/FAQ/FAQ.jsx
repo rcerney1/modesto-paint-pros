@@ -85,7 +85,7 @@ export default function FAQ() {
                     />
                     <img
                         src={faqGraphic}
-                        alt="FAQ"
+                        alt="Common questions about painting services in Modesto, CA"
                         width="606"
                         height="473"
                     />

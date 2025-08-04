@@ -51,13 +51,14 @@ export default function Navbar() {
             <div className="cs-top-bar">
                 <div className="cs-top-container">
                     <div className="cs-top-contact">
-                        <a href="#" className="cs-top-link">
-                            <img className="cs-link-icon" src={phoneIcon} alt="phone icon" />
-                            Call us: +84 1985 33 999
+                        <a href="tel:+12095551234" className="cs-top-link" aria-label="Call Modesto Paint Pros">
+                            <img className="cs-link-icon" src={phoneIcon} alt="Phone icon" />
+                            Call us: +1 (209) 555-1234
                         </a>
+
                         <a href="#" className="cs-top-link">
                             <img className="cs-link-icon" src={clockIcon} alt="clock icon" />
-                            Opening hours: Mon - Sat: 8:00am To 9:00pm
+                            Opening hours: Mon - Sat: 8:00am To 6:00pm
                         </a>
                     </div>
                     <div className="cs-top-social">
@@ -79,7 +80,7 @@ export default function Navbar() {
                     <img src={logo} alt="logo" />
                 </a>
 
-                <nav className="cs-nav" role="navigation">
+                <nav className="cs-nav" role="navigation" aria-label="Main navigation">
                     <button className={`cs-toggle ${mobileNavOpen ? "cs-active" : ""}`} onClick={handleToggle} aria-label="mobile menu toggle">
                         <div className="cs-box" aria-hidden="true">
                             <span className="cs-line cs-line1" aria-hidden="true"></span>

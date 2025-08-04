@@ -15,19 +15,19 @@ const galleryImages = [
         src: gallery1Desktop,
         srcm: gallery1Mobile,
         tag: "Exterior",
-        project: "Project Name"
+        project: "Classic Exterior Repaint"
     },
     {
         src: gallery2Desktop,
         srcm: gallery2Mobile,
         tag: "Hardscaping",
-        project: "Dry Wall Repair"
+        project: "Garage Drywall Repair in Modesto"
     },
     {
         src: gallery3Desktop,
         srcm: gallery3Mobile,
         tag: "Interior",
-        project: "Cozy Living Room Revamp"
+        project: "Interior Living Room Paint Refresh"
     }
 ];
 
@@ -39,7 +39,7 @@ export default function GalleryPreview() {
             <div className="cs-container">
                 <div className="cs-content">
                     <div className="cs-flex">
-                        <h2 className="cs-title scroll-fade delay-3">Featured Projects</h2>
+                        <h2 className="cs-title scroll-fade delay-3">Modesto Painting Projects</h2>
                     </div>
                 </div>
                 <div className="cs-gallery-wrapper">
@@ -53,7 +53,7 @@ export default function GalleryPreview() {
                                         loading="lazy"
                                         decoding="async"
                                         src={image.src}
-                                        alt={image.project}
+                                        alt={`Modesto painting project: ${image.project}`}
                                         width="305"
                                         height="400"
                                     />
@@ -76,7 +76,7 @@ export default function GalleryPreview() {
             <div className="cs-stats">
                 <div className="cs-stat scroll-fade delay-2">
                     <span className="cs-number">15+</span>
-                    <span className="cs-desc">Years of Experience</span>
+                    <span className="cs-desc">Years of Experience in Modesto</span>
                 </div>
                 <div className="cs-stat scroll-fade delay-3">
                     <span className="cs-number">98%</span>

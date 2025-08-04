@@ -14,14 +14,14 @@ const reviews = [
     {
         name: "Jenny Y.",
         desc: "Home Owner",
-        text: "This is a placeholder review. Here you can display reviews from previous clients. This gives the business good credibility and looks nice.",
+        text: "The team at Modesto Paint Pros was amazing. They were fast, clean, and made my living room look brand new!",
         profileImg: profile1,
         starsImg: stars5
     },
     {
         name: "Terry P.",
-        desc: "Home Owner",
-        text: "This is a second placeholder review. Here you can display reviews from previous clients. This gives the business good credibility and looks nice. You can have as many reviews as you want displayed on this section and it will scroll through them!",
+        desc: "Business Owner in Modesto",
+        text: "Our storefront needed a serious refresh. These guys nailed the color match and finished ahead of schedule. Highly recommend.",
         profileImg: profile2,
         starsImg: stars5
     }
@@ -111,7 +111,7 @@ export default function Testimonials() {
                 <source media="(min-width: 768px)" srcSet={bgDesktop} />
                 <img
                     src={bgDesktop}
-                    alt=""
+                    alt="Customer testimonials background painting image in Modesto"
                     width="630"
                     height="877"
                     loading="lazy"
