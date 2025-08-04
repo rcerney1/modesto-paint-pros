@@ -30,3 +30,10 @@ This is a live test project and not affiliated with any real painting business.
 ```bash
 npm install
 npm run dev
+
+
+
+---
+
+
+
