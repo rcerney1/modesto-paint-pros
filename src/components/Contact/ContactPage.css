@@ -108,6 +108,10 @@
   #cs-contact-240 .cs-button-solid:hover:before {
     width: 100%;
   }
+
+  .cs-button-solid:hover{
+    cursor: pointer;
+  }
   #cs-contact-240 .cs-submit {
     width: 100%;
     border: none;

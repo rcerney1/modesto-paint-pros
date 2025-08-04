@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paintertemp.netlify.app/sitemap.xml
-
+Sitemap: https://modestopaintpros.com/sitemap.xml

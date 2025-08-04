@@ -1,7 +1,7 @@
 import "./ContactPage.css";
-import mailIcon from "/src/assets/icons/phone-grey.svg";
+import mailIcon from "/src/assets/icons/email.svg";
 import phoneIcon from "/src/assets/icons/phone-grey.svg";
-import pinIcon from "/src/assets/icons/phone-grey.svg";
+import pinIcon from "/src/assets/icons/address.svg";
 import useScrollFadeIn from "../../hooks/useScrollFadeIn";
 
 export default function ContactPage() {
