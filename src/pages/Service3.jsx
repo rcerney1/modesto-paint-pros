@@ -1,31 +1,30 @@
 import BaseLayout from "../layout/BaseLayout";
 import useScrollFadeIn from "../hooks/useScrollFadeIn";
-import ExteriorServices from "../components/Services/ExteriorServices/ExteriorServices";
 import Banner from "../components/Banner/Banner";
 import CTA from "../components/Home/CTA/CTA";
-
+import CabinetServices from "../components/Services/CabinetServices/CabinetServices";
 import { Helmet } from "react-helmet-async";
 
-export default function Service2() {
+export default function Service3() {
     useScrollFadeIn();
 
     return (
         <BaseLayout>
             <Helmet>
-                <title>Exterior House Painting in Modesto | Modesto Paint Pros</title>
+                <title>Cabinet Refinishing in Modesto | Modesto Paint Pros</title>
                 <meta
                     name="description"
-                    content="Get high-quality exterior painting in Modesto and surrounding areas. We offer stucco repair, trim painting, pressure washing, and more. Free estimates available!"
+                    content="Breathe new life into your kitchen or bathroom with professional cabinet refinishing in Modesto. Affordable upgrades with clean, durable finishes."
                 />
             </Helmet>
             <Banner
-                title="Exterior Services"
+                title="Cabinet Refinishing"
                 breadcrumbs={[
                     { label: "Home", href: "/" },
-                    { label: "Exterior", href: "/services/exterior" }
+                    { label: "Cabinets", href: "/services/cabinets" }
                 ]}
             />
-            <ExteriorServices />
+            <CabinetServices />
             <CTA />
         </BaseLayout>
     );

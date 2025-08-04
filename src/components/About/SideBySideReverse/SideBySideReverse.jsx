@@ -22,7 +22,7 @@ export default function SideBySideReverse() {
                             loading="lazy"
                             decoding="async"
                             src={painter2Desktop}
-                            alt="man"
+                            alt="Professional painter prepping walls for residential repainting in Modesto"
                             width="323"
                             height="447"
                         />
@@ -34,7 +34,7 @@ export default function SideBySideReverse() {
                             loading="lazy"
                             decoding="async"
                             src={painter3Desktop}
-                            alt="appliance"
+                            alt="Painting tools and equipment used by Modesto Paint Pros"
                             width="305"
                             height="441"
                         />
@@ -44,7 +44,7 @@ export default function SideBySideReverse() {
                         loading="lazy"
                         decoding="async"
                         src={stripes}
-                        alt="stripes"
+                        alt="decorative stripes"
                         width="548"
                         height="487"
                         aria-hidden="true"
@@ -52,21 +52,21 @@ export default function SideBySideReverse() {
                 </div>
                 <div className="cs-content scroll-fade delay-4">
                     <span className="cs-topper">Mission & Vision</span>
-                    <h2 className="cs-title">Template Painters Mission & Vision</h2>
+                    <h2 className="cs-title">Why Modesto Paint Pros Exists</h2>
                     <p className="cs-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat enim praesentium vero assumenda impedit. Fuga velit tenetur dolorum, delectus, inventore dignissimos sit ipsam facilis illum repudiandae quia nobis distinctio. Voluptates.
+                        At Modesto Paint Pros, we believe that a quality paint job does more than change the look of a space — it uplifts homes, transforms businesses, and reflects pride in our community.
                     </p>
                     <ul className="cs-ul">
                         <li className="cs-li">
-                            <h3 className="cs-h3">Mission Statement</h3>
+                            <h3 className="cs-h3">Our Mission</h3>
                             <p className="cs-li-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fugit, enim accusamus molestiae reiciendis eligendi maiores cumque perspiciatis distinctio inventore id, eum vero harum quasi adipisci amet ad illo deserunt!
+                                To deliver professional, reliable, and long-lasting painting solutions for homeowners and business owners across Stanislaus County. We aim to exceed expectations on every job, large or small.
                             </p>
                         </li>
                         <li className="cs-li">
                             <h3 className="cs-h3">Our Vision</h3>
                             <p className="cs-li-text">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ea sequi harum adipisci molestias laboriosam similique, sunt officiis laudantium quasi voluptate dolores vel tenetur excepturi sed eaque quam nesciunt itaque?
+                                To be the most trusted painting company in Modesto and the surrounding region — known for quality craftsmanship, honest pricing, and friendly service.
                             </p>
                         </li>
                     </ul>

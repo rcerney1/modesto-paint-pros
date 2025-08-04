@@ -13,10 +13,10 @@ export default function Projects() {
        
         <BaseLayout>
             <Helmet>
-                <title>TP | Gallery</title>
+                <title>Project Gallery | Modesto Painting Services</title>
                 <meta
                     name="description"
-                    content="testing"
+                    content="Browse real interior and exterior painting projects by Template Painters. Serving Modesto, Oakdale, and surrounding Stanislaus County areas."
                 />
             </Helmet>
             <Banner

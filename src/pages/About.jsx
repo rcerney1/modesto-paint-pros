@@ -12,10 +12,10 @@ export default function About() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>About Us | Template Painters</title>
+                <title>About Modesto Paint Pros | Local Painting Experts</title>
                 <meta
                     name="description"
-                    content="Learn more about Template Painters, our experienced team, other seo words"
+                    content="Learn more about Modesto Paint Pros, your trusted local painters for residential and commercial projects throughout Stanislaus County. Quality work, reliable service."
                 />
             </Helmet>
             {/*  */}

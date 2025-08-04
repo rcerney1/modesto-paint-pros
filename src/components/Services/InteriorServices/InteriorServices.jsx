@@ -57,21 +57,29 @@ export default function InteriorServices() {
                             Interior <span className="cs-color">Painting Services</span>
                         </h1>
                         <div className="scroll-fade delay-4">
-                            <h2>Heading</h2>
-                            <h3>Sub heading</h3>
+                            <h2>Top-Rated Interior Painters in Modesto</h2>
+                            <h3>Clean, Precise, and Professional</h3>
                             <p>
-                                We provide complete interior painting and prep services for residential and commercial properties. Our attention to detail ensures clean edges, smooth finishes, and long-lasting results.
+                                At Modesto Paint Pros, we offer high-quality interior painting services for homes, offices, and commercial properties throughout Stanislaus County. Whether you're updating a single room or refreshing your entire interior, our team delivers smooth finishes, clean lines, and a stress-free experience.
                             </p>
                             <p>
-                                From patching drywall to trimming baseboards, our experienced team delivers consistent quality with minimal disruption to your space.
+                                We take care of everything—from prepping walls and repairing drywall to applying durable, low-VOC paints that are safe for your home or workspace. Our painters work efficiently and treat your space with respect, keeping things tidy from start to finish.
                             </p>
-                            <h3>Sub heading</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quod rem itaque quisquam odio veritatis, ullam delectus. Rerum tempore nulla, modi quod vel id eos in enim explicabo aliquam expedita.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur iusto natus. Earum aperiam eius quo voluptas tenetur pariatur incidunt? Qui inventore in sed illo nulla deserunt fugiat perferendis vero!</p>
-                            <h3>Sub heading</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quod rem itaque quisquam odio veritatis, ullam delectus. Rerum tempore nulla, modi quod vel id eos in enim explicabo aliquam expedita.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur iusto natus. Earum aperiam eius quo voluptas tenetur pariatur incidunt? Qui inventore in sed illo nulla deserunt fugiat perferendis vero!</p>
+
+                            <h3>Why Choose Us for Interior Painting?</h3>
+                            <p>
+                                Our painters are trained professionals who bring years of experience to every job. We focus on proper prep work and use high-end materials to ensure lasting results. Whether it's textured walls, high ceilings, or delicate trim work, we’ve got it covered.
+                            </p>
+                            <p>
+                                We also provide flexible scheduling, detailed walkthroughs, and upfront pricing—so there are no surprises along the way. We treat your project like it’s our own.
+                            </p>
+
+                            <h3>Serving All of Stanislaus County</h3>
+                            <p>
+                                Based in Modesto, we proudly serve residential and commercial clients across Turlock, Ceres, Riverbank, Oakdale, and surrounding areas. If you're looking for reliable interior painters who show up on time and deliver high-end results, you're in the right place.
+                            </p>
                         </div>
+
                     </div>
                 </div>
             </section>

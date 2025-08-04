@@ -14,12 +14,12 @@ export default function Home(){
     return(
         <BaseLayout>
             <Helmet>
-                <title>TP | Template Painters</title>
+                <title>Modesto Paint Pros | Expert Residential & Commercial Painting</title>
                 <meta 
                     name="description"
-                    content="testing"
+                    content="Modesto Paint Pros offers high-quality interior and exterior painting services for homes and businesses across Stanislaus County. Get a free estimate today!"
                 />
-                <meta name="google-site-verification" content="Z6BdZojcu6kjTw2AxT4dGPad3Ajf2TA0ao49f8g9poQ" />
+                
             </Helmet>
             <Hero />
             <ServicesPreview />

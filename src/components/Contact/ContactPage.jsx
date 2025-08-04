@@ -14,7 +14,7 @@ export default function ContactPage() {
                         <span className="cs-topper  scroll-fade delay-3">Contact</span>
                         <h2 className="cs-title scroll-fade delay-3">Get in Touch</h2>
                         <p className="cs-text scroll-fade delay-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
+                            Ready to refresh your home or business? Use the form below to get a free quote, or contact us directly by phone or email. We proudly serve Modesto, Oakdale, Riverbank, and surrounding Stanislaus County areas.
                         </p>
                     </div>
                     <form
@@ -66,7 +66,7 @@ export default function ContactPage() {
                             </picture>
                             <div className="cs-flex-group">
                                 <span className="cs-header">Email</span>
-                                <a href="mailto:ryanccerney@gmail.com" className="cs-link">ryanccerney@gmail.com</a>
+                                <a href="mailto:ryanccerney@gmail.com" className="cs-link">info@modestopaintPros.com</a>
                             </div>
                         </li>
                         <li className="cs-li">
@@ -75,7 +75,7 @@ export default function ContactPage() {
                             </picture>
                             <div className="cs-flex-group">
                                 <span className="cs-header">Phone</span>
-                                <a href="tel:9256832180" className="cs-link">(925) 683-2180</a>
+                                <a href="tel:9256832180" className="cs-link">(209) 555-1234</a>
                             </div>
                         </li>
                         <li className="cs-li">
@@ -84,14 +84,14 @@ export default function ContactPage() {
                             </picture>
                             <div className="cs-flex-group">
                                 <span className="cs-header">Address</span>
-                                <a href="#" className="cs-link">4025 Rhoda Way, Concord, CA</a>
+                                <a href="#" className="cs-link">1436 Sutter Ave, Modesto, CA, 95354</a>
                             </div>
                         </li>
                     </ul>
                     <div className="cs-picture scroll-fade delay-4">
                         <iframe
                             title="Google Map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.98441410718!2d-122.04425292368931!3d37.95414990180646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085612629b66153%3A0x135f374f37d3e12f!2sTaco%20Bell!5e0!3m2!1sen!2sus!4v1752612029499!5m2!1sen!2sus"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.268100466584!2d-121.01665271147881!3d37.619380948976335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809053a0390a2fdb%3A0x4d81b44499d5581!2sSutter%20Ave%2C%20Modesto%2C%20CA%2095351!5e0!3m2!1sen!2sus!4v1754346314539!5m2!1sen!2sus"
                             width="100%"
                             height="100%"
                             style={{ border: 0, borderRadius: "1rem" }}

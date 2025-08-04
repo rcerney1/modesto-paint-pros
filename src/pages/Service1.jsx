@@ -11,10 +11,10 @@ export default function Service1() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>TP | Template Painters</title>
+                <title>Interior Painting in Modesto | Modesto Paint Pros</title>
                 <meta
                     name="description"
-                    content="testing"
+                    content="Get flawless interior painting for your Modesto home or business. We specialize in walls, ceilings, trim, and more—backed by licensed pros and free estimates"
                 />
             </Helmet>
             <Banner

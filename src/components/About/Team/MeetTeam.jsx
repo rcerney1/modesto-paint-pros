@@ -32,7 +32,7 @@ export default function MeetTeam() {
     const team = [
         {
             name: "John Howard",
-            role: "Team Member 1",
+            role: "Exterior Painting Specialist",
             photo: 1,
             socials: {
                 face: "#",
@@ -42,7 +42,7 @@ export default function MeetTeam() {
         },
         {
             name: "Jenny Wilson",
-            role: "Team Member 2",
+            role: "Lead Interior Painter",
             photo: 2,
             socials: {
                 face: "#",
@@ -52,7 +52,7 @@ export default function MeetTeam() {
         },
         {
             name: "Ryan Alexander",
-            role: "Team Member 3",
+            role: "Project Manager",
             photo: 3,
             socials: {
                 face: "#",
@@ -62,7 +62,7 @@ export default function MeetTeam() {
         },
         {
             name: "Kevin Alexander",
-            role: "Team Member 4",
+            role: "Color Consultant",
             photo: 4,
             socials: {
                 face: "#",
@@ -78,8 +78,7 @@ export default function MeetTeam() {
                 <div className="cs-content">
                     <h2 className="cs-title">Meet Our Team</h2>
                     <p className="cs-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur neque voluptatibus ipsam ratione,
-                        doloribus harum error repudiandae dignissimos nemo est!
+                        Our Modesto-based painting team brings years of hands-on experience, craftsmanship, and a commitment to customer satisfaction. Whether it's a residential refresh or a commercial upgrade, we’re proud to serve Stanislaus County with professionalism and pride.
                     </p>
                 </div>
                 <ul className="cs-card-group">

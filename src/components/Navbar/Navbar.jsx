@@ -133,6 +133,22 @@ export default function Navbar() {
                                             Exterior Painting
                                         </NavLink>
                                     </li>
+                                    <li className="cs-drop-li">
+                                        <NavLink
+                                            to="/services/cabinet-refinishing"
+                                            className={({ isActive }) => (isActive ? "cs-li-link cs-drop-link cs-active" : "cs-li-link cs-drop-link")}
+                                        >
+                                            Cabinet Refinishing
+                                        </NavLink>
+                                    </li>
+                                    <li className="cs-drop-li">
+                                        <NavLink
+                                            to="/services/drywall-repair"
+                                            className={({ isActive }) => (isActive ? "cs-li-link cs-drop-link cs-active" : "cs-li-link cs-drop-link")}
+                                        >
+                                            Dry Wall Repair
+                                        </NavLink>
+                                    </li>
                                 </ul>
                             </li>
                             <li className="cs-li">

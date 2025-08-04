@@ -11,34 +11,36 @@ import useScrollFadeIn from "../../../hooks/useScrollFadeIn";
 
 export default function ExteriorServices() {
     useScrollFadeIn();
+
     const services = [
         {
             icon: paintIcon,
             title: "Exterior Painting",
-            desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quo nulla, quidem consequatur"
+            desc: "Refresh your home’s exterior with durable, weather-resistant paint that enhances curb appeal and protects from sun, wind, and rain."
         },
         {
             icon: hoseIcon,
             title: "Power Washing",
-            desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quo nulla, quidem consequatur"
+            desc: "Remove dirt, grime, and mildew with high-pressure washing that prepares surfaces for paint or simply revives their original look."
         },
         {
             icon: wallIcon,
             title: "Stucco & Siding Repair",
-            desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quo nulla, quidem consequatur"
+            desc: "Fix cracks, holes, and surface damage in stucco or siding to restore your home’s structure and create a smooth finish for paint."
         },
         {
             icon: fenceIcon,
             title: "Deck & Fence Painting",
-            desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quo nulla, quidem consequatur"
+            desc: "Protect and beautify wood surfaces with paint or stain that resists moisture, sun damage, and everyday wear."
         },
         {
             icon: windowIcon,
             title: "Exterior Trim & Fascia",
-            desc: "lLorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quo nulla, quidem consequatur"
+            desc: "Revive trim, fascia boards, and accents with crisp paint lines and weatherproof coatings that tie your whole exterior together."
         }
-        
     ];
+
+
 
     return (
         <>
@@ -59,21 +61,29 @@ export default function ExteriorServices() {
                             Exterior <span className="cs-color">Painting Services</span>
                         </h1>
                         <div className="scroll-fade delay-4">
-                            <h2>Heading</h2>
-                            <h3>Sub heading</h3>
+                            <h2>Trusted Exterior Painters in Modesto</h2>
+                            <h3>Boost Your Curb Appeal with a Flawless Finish</h3>
                             <p>
-                                We provide complete exterior painting and prep services for residential and commercial properties. Our attention to detail ensures clean edges, smooth finishes, and long-lasting results.
+                                At Modesto Paint Pros, we specialize in exterior painting services that protect your property and enhance its visual appeal. Whether you're refreshing a faded paint job or preparing a home for sale, our skilled painters deliver durable results that stand up to California weather.
                             </p>
                             <p>
-                                From patching drywall to trimming baseboards, our experienced team delivers consistent quality with minimal disruption to your space.
+                                We start with thorough prep work—from scraping and sanding to priming and caulking—to ensure smooth application and long-lasting adhesion. Our team uses premium paints and proven techniques to resist sun damage, moisture, and peeling.
                             </p>
-                            <h3>Sub heading</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quod rem itaque quisquam odio veritatis, ullam delectus. Rerum tempore nulla, modi quod vel id eos in enim explicabo aliquam expedita.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur iusto natus. Earum aperiam eius quo voluptas tenetur pariatur incidunt? Qui inventore in sed illo nulla deserunt fugiat perferendis vero!</p>
-                            <h3>Sub heading</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quod rem itaque quisquam odio veritatis, ullam delectus. Rerum tempore nulla, modi quod vel id eos in enim explicabo aliquam expedita.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur iusto natus. Earum aperiam eius quo voluptas tenetur pariatur incidunt? Qui inventore in sed illo nulla deserunt fugiat perferendis vero!</p>
+
+                            <h3>Complete Exterior Solutions, Start to Finish</h3>
+                            <p>
+                                We go beyond walls. Our exterior painting services include touch-ups for stucco and siding, pressure washing, deck and fence painting, and more. Everything is handled by trained professionals who show up on time and keep your property clean.
+                            </p>
+                            <p>
+                                Let us help you protect and revitalize your home or business with a finish that lasts.
+                            </p>
+
+                            <h3>Serving Modesto and Surrounding Areas</h3>
+                            <p>
+                                We proudly serve property owners in Modesto, Ceres, Riverbank, Oakdale, and the greater Stanislaus County area. If you're looking for reliable exterior painters near you, we’re here to help.
+                            </p>
                         </div>
+
                     </div>
                 </div>
             </section>

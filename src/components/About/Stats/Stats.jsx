@@ -14,7 +14,7 @@ export default function Stats() {
         {
             icon: iconPerson,
             number: 4,
-            desc: "Painters"
+            desc: "Skilled Local Painters"
         },
         {
             icon: iconMop,
@@ -24,12 +24,12 @@ export default function Stats() {
         {
             icon: iconThumbs,
             number: 2260,
-            desc: "Satisfied Clients"
+            desc: "Happy Clients in Stanislaus"
         },
         {
             icon: iconAward,
             number: 2,
-            desc: "Awards Won"
+            desc: "Local Service Awards"
         }
     ];
 
@@ -37,9 +37,10 @@ export default function Stats() {
 
     return (
         <div id="stats-340-1112">
+            <h2 className="cs-stats-heading scroll-fade delay-1">Trusted Throughout Modesto & Beyond</h2>
             <ul className="cs-card-group">
                 {stats.map((stat, index) => (
-                    <li className={`cs-item scroll-fade delay-${index + 1}`} key={index}>
+                    <li className={`cs-item scroll-fade delay-${index + 2}`} key={index}>
                         <picture className="cs-picture">
                             <img
                                 className="cs-icon"
@@ -68,7 +69,7 @@ export default function Stats() {
                     loading="lazy"
                     decoding="async"
                     src={bannerDesktop}
-                    alt="mechanic"
+                    alt=""
                     width="1920"
                     height="283"
                 />

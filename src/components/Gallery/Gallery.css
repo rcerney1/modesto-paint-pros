@@ -13,6 +13,7 @@
         gap: clamp(2rem, 5vw, 4rem);
     }
 
+
     .cs-header {
         text-align: center;
         display: flex;
@@ -101,6 +102,10 @@
         padding: 0.25rem 0.75rem;
         border-radius: 0.25rem;
         display: inline-block;
+    }
+
+    .cs-title{
+        display: contents;
     }
 
     

@@ -8,30 +8,30 @@ export default function Pricing() {
 
     const plans = [
         {
-            title: "Pricing Option 1",
-            price: "$49.99",
+            title: "Residential Painting",
+            price: "Free Estimates",
             features: [
-                "Feature 1",
-                "Feature 2",
-                "Feature 3",
-                "etc",
-                "etc",
-                "etc"
+                "Interior walls, ceilings, and trim",
+                "Exterior siding, doors, and accents",
+                "Color matching and consultation",
+                "Flexible scheduling",
+                "Surface preparation included",
+                "Licensed & insured professionals"
             ],
-            disabled: [4, 5]
+            disabled: [] // show all features
         },
         {
-            title: "Pricing Option 2",
-            price: "$99.99",
+            title: "Commercial Projects",
+            price: "Custom Quotes",
             features: [
-                "Feature 1",
-                "Feature 2",
-                "Feature 3",
-                "etc",
-                "etc",
-                "etc"
+                "Office buildings & retail spaces",
+                "Evening & weekend availability",
+                "Durable, long-lasting coatings",
+                "Pressure washing & prep",
+                "Licensed & insured crew",
+                "Satisfaction guaranteed"
             ],
-            disabled: [] // only the last one is disabled
+            disabled: [] // show all features
         }
     ];
 
@@ -40,11 +40,11 @@ export default function Pricing() {
             <div className="cs-container scroll-fade delay-2">
                 <div className="cs-content">
                     <span className="cs-topper">Pricing</span>
-                    <h2 className="cs-title">Affordable Pricing Plans</h2>
+                    <h2 className="cs-title">Estimates You Can Trust</h2>
                     <p className="cs-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ea animi totam exercitationem dignissimos veniam, dolorem quam doloribus tempora soluta similique
+                        Every project is unique, which is why Modesto Paint Pros offers free, no-obligation estimates tailored to your specific needs. Whether it's a fresh coat for your home or a full commercial job, we’ll work with your budget and timeline.
                     </p>
-                    <a href="/contact" className="cs-button-solid">Book Appointment</a>
+                    <a href="/contact" className="cs-button-solid">Request a Free Estimate</a>
                 </div>
                 <ul className="cs-card-group">
                     {plans.map((plan, idx) => (
@@ -53,17 +53,14 @@ export default function Pricing() {
                             <span className="cs-price">{plan.price}</span>
                             <ul className="cs-ul">
                                 {plan.features.map((feature, i) => (
-                                    <li
-                                        className={`cs-li${plan.disabled.includes(i) ? " cs-disabled" : ""}`}
-                                        key={i}
-                                    >
+                                    <li className="cs-li" key={i}>
                                         {feature}
                                         <img
                                             className="cs-icon"
                                             aria-hidden="true"
                                             loading="lazy"
                                             decoding="async"
-                                            src={checkIcon} 
+                                            src={checkIcon}
                                             alt="checkmark"
                                             width="18"
                                             height="18"
