@@ -1,12 +1,32 @@
-# React + Vite
+# Modesto Painting Co.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile-friendly website for a local residential and commercial painting business in Modesto, CA. Built using React and Vite, this site is optimized for local SEO and lead generation.
 
-Currently, two official plugins are available:
+## 🖌️ About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a mock project created as a proof of concept for SEO-based lead generation. It includes:
 
-## Expanding the ESLint configuration
+- Custom homepage with service overview and image gallery
+- Individual pages for Interior, Exterior, and Commercial painting
+- Responsive design and fast loading performance
+- SEO enhancements (meta tags, sitemap, robots.txt)
+- Google tools integration (Search Console, Analytics)
+- Clean and scalable codebase built with Vite + React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Tech Stack
+
+- **React** for component-based UI
+- **Vite** for fast builds and local dev
+- **CSS Modules** for scoped styling
+- **React Router** for page routing
+- **Lightbox** for gallery popups
+
+## 🚧 Status
+
+This is a live test project and not affiliated with any real painting business.
+
+## 📁 Project Setup
+
+```bash
+npm install
+npm run dev
