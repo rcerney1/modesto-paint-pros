@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 // ✅ Import logo
-import logo from "../../assets/logos/companyLogo3.svg";
+import logo from "../../assets/logos/modestoPaintProsDark.svg";
 
 export default function Footer() {
     return (
