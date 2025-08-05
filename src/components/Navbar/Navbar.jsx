@@ -2,14 +2,14 @@ import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-// ✅ Import icons and logo
+
 import phoneIcon from "../../assets/icons/phone-grey.svg";
 import clockIcon from "../../assets/icons/clock-grey.svg";
 import facebookIcon from "../../assets/icons/face-grey.svg";
 import twitterIcon from "../../assets/icons/twit-grey.svg";
 import instagramIcon from "../../assets/icons/insta-grey.svg";
 import dropdownIcon from "../../assets/icons/chev-down.svg";
-import logo from "../../assets/logos/modestoPaintProsLight.svg";
+import logo from "../../assets/logos/modestoPaintProsLight2.svg";
 
 export default function Navbar() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
