@@ -2,10 +2,19 @@
 @media only screen and (min-width: 0rem) {
     #stats-340-1112 {
         padding: var(--sectionPadding);
+        padding-top: 4rem;
         position: relative;
         z-index: 1;
     }
 
+    #stats-340-1112 .cs-stats-heading {
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    
+    }
     #stats-340-1112 .cs-background {
         width: 100%;
         height: 100%;
