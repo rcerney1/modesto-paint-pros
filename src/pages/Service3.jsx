@@ -11,7 +11,7 @@ export default function Service3() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>Cabinet Refinishing in Modesto | Modesto Paint Pros</title>
+                <title>Cabinet Refinishing in Modesto</title>
                 <meta
                     name="description"
                     content="Breathe new life into your kitchen or bathroom with professional cabinet refinishing in Modesto. Affordable upgrades with clean, durable finishes."

@@ -12,7 +12,7 @@ export default function Service2() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>Exterior House Painting in Modesto | Modesto Paint Pros</title>
+                <title>Exterior House Painting in Modesto</title>
                 <meta
                     name="description"
                     content="Get high-quality exterior painting in Modesto and surrounding areas. We offer stucco repair, trim painting, pressure washing, and more. Free estimates available!"

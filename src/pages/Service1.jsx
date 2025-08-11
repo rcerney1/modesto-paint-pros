@@ -11,7 +11,7 @@ export default function Service1() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>Interior Painting in Modesto | Modesto Paint Pros</title>
+                <title>Interior Painting in Modesto</title>
                 <meta
                     name="description"
                     content="Get flawless interior painting for your Modesto home or business. We specialize in walls, ceilings, trim, and more—backed by licensed pros and free estimates"

@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>Contact Us | Modesto Paint Pros</title>
+                <title>Contact Us</title>
                 <meta
                     name="description"
                     content="Contact Modesto Paint Pros for reliable interior and exterior painting services in Stanislaus County. Call, email, or send a message for your free quote."
