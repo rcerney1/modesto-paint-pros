@@ -4,11 +4,18 @@
   <meta charset="utf-8">
   <title>About Modesto Paint Pros | Local Painting Experts</title>
   <meta name="description" content="Learn more about Modesto Paint Pros, your trusted local painters for residential and commercial projects throughout Stanislaus County.">
-  <link rel="canonical" href="/about" />
-  <meta http-equiv="refresh" content="0; url=/about">
-  <script>location.replace('/about');</script>
+  <link rel="canonical" href="https://modestopaintpros.com/about" />
+  <!-- Keep shells out of the index to avoid duplicates -->
+  <meta name="robots" content="noindex,follow">
 </head>
 <body>
-  <noscript><a href="/about">Continue to About</a></noscript>
+  <!-- JS redirect (no meta refresh) -->
+  <script>
+    // Send users to the real route, but let crawlers still read the title/description
+    location.replace('/about');
+  </script>
+  <noscript>
+    <a href="/about">Continue to About</a>
+  </noscript>
 </body>
 </html>
