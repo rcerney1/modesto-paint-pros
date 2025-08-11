@@ -1,6 +1,6 @@
 import "./CabinetServices.css";
-import cabinet1 from "/src/assets/services/exterior1.webp"
-import cabinet2 from "/src/assets/services/exterior1.webp"
+import cabinet1 from "/src/assets/services/cabinets1.webp"
+import cabinet2 from "/src/assets/services/cabinets2.webp"
 import prepIcon from "/src/assets/home/paint-roller.svg";
 import sprayIcon from "/src/assets/home/paint-roller.svg";
 import sandIcon from "/src/assets/home/paint-roller.svg";

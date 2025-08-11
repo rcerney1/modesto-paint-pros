@@ -1,6 +1,6 @@
 import "./DrywallRepair.css";
-import drywall1 from "/src/assets/services/interior1.webp";
-import drywall2 from "/src/assets/services/interior1.webp";
+import drywall1 from "/src/assets/services/drywall1.webp";
+import drywall2 from "/src/assets/home/gallery-2-d.webp";
 import holeIcon from "/src/assets/home/paint-roller.svg";
 import patchIcon from "/src/assets/home/paint-roller.svg";
 import sandIcon from "/src/assets/home/paint-roller.svg";
