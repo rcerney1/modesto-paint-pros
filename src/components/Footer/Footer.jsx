@@ -34,9 +34,6 @@ export default function Footer() {
                                 <Link to="/about" className="cs-nav-link">About</Link>
                             </li>
                             <li className="cs-nav-li">
-                                <Link to="/services" className="cs-nav-link">Services</Link>
-                            </li>
-                            <li className="cs-nav-li">
                                 <Link to="/projects" className="cs-nav-link">Projects</Link>
                             </li>
                             <li className="cs-nav-li">

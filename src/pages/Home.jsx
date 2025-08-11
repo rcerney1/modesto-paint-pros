@@ -23,38 +23,53 @@ export default function Home() {
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "PaintingService",
-                        name: "Modesto Paint Pros",
-                        image: "https://modestopaintpros.com/assets/logos/logo.png",
-                        url: "https://modestopaintpros.com",
-                        telephone: "(209) 555-1234",
-                        email: "info@modestopaintpros.com",
-                        address: {
+                        "@id": "https://modestopaintpros.com/#identity",
+                        "name": "Modesto Paint Pros",
+                        "url": "https://modestopaintpros.com/",
+                        "logo": "https://modestopaintpros.com/assets/logo.png", // TODO: ensure this exists
+                        "image": "https://modestopaintpros.com/assets/hero.jpg", // TODO: use a real public image
+                        "telephone": "+12095551234", // TODO: match site/GBP exactly
+                        "email": "info@modestopaintpros.com",
+                        "hasMap": "https://maps.google.com/?q=1436+Sutter+Ave,+Modesto,+CA+95354",
+                        "address": {
                             "@type": "PostalAddress",
-                            streetAddress: "1436 Sutter Ave",
-                            addressLocality: "Modesto",
-                            addressRegion: "CA",
-                            postalCode: "95354",
-                            addressCountry: "US",
+                            "streetAddress": "1436 Sutter Ave",
+                            "addressLocality": "Modesto",
+                            "addressRegion": "CA",
+                            "postalCode": "95354",
+                            "addressCountry": "US"
                         },
-                        priceRange: "$$",
-                        areaServed: {
-                            "@type": "Place",
-                            name: "Stanislaus County",
+                        "priceRange": "$$",
+                        "areaServed": [
+                            { "@type": "City", "name": "Modesto" },
+                            { "@type": "AdministrativeArea", "name": "Stanislaus County" }
+                        ],
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 37.6391,   // optional: use your real coords if you have them
+                            "longitude": -120.9969
                         },
-                        openingHoursSpecification: {
-                            "@type": "OpeningHoursSpecification",
-                            dayOfWeek: [
-                                "Monday",
-                                "Tuesday",
-                                "Wednesday",
-                                "Thursday",
-                                "Friday",
-                            ],
-                            opens: "08:00",
-                            closes: "17:00",
-                        },
+                        "openingHoursSpecification": [
+                            {
+                                "@type": "OpeningHoursSpecification",
+                                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                                "opens": "09:00",    // TODO: align with your actual hours
+                                "closes": "18:00"
+                            }
+                        ],
+                        "sameAs": [
+                            "https://www.facebook.com/yourpage", // TODO: replace or remove if none
+                            "https://www.instagram.com/yourpage"
+                        ],
+                        "makesOffer": [
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Interior Painting" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior Painting" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cabinet Refinishing" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drywall Repair" } }
+                        ]
                     })}
                 </script>
+
             </Helmet>
 
             <Hero />
