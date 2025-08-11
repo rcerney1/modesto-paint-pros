@@ -11,7 +11,7 @@ export default function Service4() {
     return (
         <BaseLayout>
             <Helmet>
-                <title>Drywall Repair & Prep</title>
+                <title>Drywall Repair & Prep | Modesto Paint Pros</title>
                 <meta
                     name="description"
                     content="Professional drywall repair and surface preparation services in Modesto and Stanislaus County. We patch, sand, and prime your walls for a flawless finish."
