@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section id="hero-1623">
-      <div className="cs-container">
+      <div className="cs-container scroll-fade delay-1">
         <div className="cs-content">
           <span className="cs-topper scroll-fade delay-2">
             <svg className="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,14 +35,14 @@ export default function Hero() {
             </svg>
           </span>
 
-          <h1 className="cs-title scroll-fade delay-3">
+          <h1 className="cs-title ">
             Residential & Commercial Painter in Modesto, CA
           </h1>
-          <p className="cs-subtext scroll-fade delay-3">
+          <p className="cs-subtext">
             Modesto Paint Pros offers interior and exterior painting for homes, businesses, and remodels throughout the Modesto area. Quality, speed, and no mess.
           </p>
 
-          <a href="/contact" className="cs-button-solid scroll-fade delay-4">Get a Free Quote</a>
+          <a href="/contact" className="cs-button-solid">Get a Free Quote</a>
 
           <div className="cs-corners" aria-hidden="true"></div>
         </div>
