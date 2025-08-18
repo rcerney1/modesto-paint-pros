@@ -11,6 +11,7 @@ export default function Contact() {
                     name="description"
                     content="Contact Modesto Paint Pros for reliable interior and exterior painting services in Stanislaus County. Call, email, or send a message for your free quote."
                 />
+                <link rel="canonical" href="ttps://modestopaintpros.com/contact" />
             </Helmet>
             <ContactPage />
         </BaseLayout>

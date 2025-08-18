@@ -18,6 +18,7 @@ export default function Projects() {
                     name="description"
                     content="Browse real interior and exterior painting projects by Template Painters. Serving Modesto, Oakdale, and surrounding Stanislaus County areas."
                 />
+                <link rel="canonical" href="ttps://modestopaintpros.com/projects" />
             </Helmet>
             <Banner
                 title="Projects"

@@ -16,6 +16,7 @@ export default function Service3() {
                     name="description"
                     content="Breathe new life into your kitchen or bathroom with professional cabinet refinishing in Modesto. Affordable upgrades with clean, durable finishes."
                 />
+                <link rel="canonical" href="ttps://modestopaintpros.com/services/cabinet-refinishing" />
             </Helmet>
             <Banner
                 title="Cabinet Refinishing"
