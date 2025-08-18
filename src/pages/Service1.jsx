@@ -1,5 +1,4 @@
 import BaseLayout from "../layout/BaseLayout";
-import useScrollFadeIn from "../hooks/useScrollFadeIn";
 import InteriorServices from "../components/Services/InteriorServices/InteriorServices";
 import CTA from "../components/Home/CTA/CTA"
 import Banner from "../components/Banner/Banner";
@@ -7,7 +6,6 @@ import Banner from "../components/Banner/Banner";
 import { Helmet } from "react-helmet-async";
 
 export default function Service1() {
-    useScrollFadeIn();
     return (
         <BaseLayout>
             <Helmet>
@@ -19,6 +17,7 @@ export default function Service1() {
                 <link rel="canonical" href="https://modestopaintpros.com/services/interior" />
 
                 <link rel="preload" as="image" href="/assets/aboutHero-m-B3N3rOcL.webp" media="(max-width: 600px)" />
+                <link rel="preload" as="image" href="/assets/aboutHero-d-IzCeYro1.webp" media="(min-width: 601px)" />
             </Helmet>
             <Banner
                 title="Interior Services"
