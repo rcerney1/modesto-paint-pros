@@ -8,13 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="Z6BdZojcu6kjTw2AxT4dGPad3Ajf2TA0ao49f8g9poQ" />
   <meta name="description" content="testing">
+  <!-- Preload hero for Interior page so Lighthouse sees it in initial HTML -->
+  <link rel="preload" as="image" href="/assets/aboutHero-m-B3N3rOcL.webp" media="(max-width: 600px)">
+  <link rel="preload" as="image" href="/assets/aboutHero-d-IzCeYro1.webp" media="(min-width: 601px)">
+
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QRDJDFH1B"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-8QRDJDFH1B');
