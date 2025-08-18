@@ -18,7 +18,7 @@ export default function Service1() {
                 />
                 <link rel="canonical" href="https://modestopaintpros.com/services/interior" />
 
-                <link rel="preload" as="image" href="/assets/about/aboutHero-m.webp" media="(max-width: 600px)" />
+                <link rel="preload" as="image" href="/assets/aboutHero-m-B3N3rOcL.webp" media="(max-width: 600px)" />
             </Helmet>
             <Banner
                 title="Interior Services"
