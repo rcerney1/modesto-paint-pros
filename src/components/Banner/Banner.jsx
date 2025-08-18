@@ -38,6 +38,8 @@ export default function Banner({ title, breadcrumbs = [] }) {
                     width="1280"
                     height="568"
                     aria-hidden="true"
+                    loading="eager"
+                    fetchPriority="high"
                 />
             </picture>
         </div>
