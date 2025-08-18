@@ -17,7 +17,7 @@ export default function Service2() {
                     name="description"
                     content="Get high-quality exterior painting in Modesto and surrounding areas. We offer stucco repair, trim painting, pressure washing, and more. Free estimates available!"
                 />
-                <link rel="canonical" href="ttps://modestopaintpros.com/services/exterior" />
+                <link rel="canonical" href="https://modestopaintpros.com/services/exterior" />
             </Helmet>
             <Banner
                 title="Exterior Services"

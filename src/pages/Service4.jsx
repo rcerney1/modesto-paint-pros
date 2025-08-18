@@ -16,7 +16,7 @@ export default function Service4() {
                     name="description"
                     content="Professional drywall repair and surface preparation services in Modesto and Stanislaus County. We patch, sand, and prime your walls for a flawless finish."
                 />
-                <link rel="canonical" href="ttps://modestopaintpros.com/services/drywall-repair" />
+                <link rel="canonical" href="https://modestopaintpros.com/services/drywall-repair" />
             </Helmet>
             <Banner
                 title="Drywall Repair & Prep"

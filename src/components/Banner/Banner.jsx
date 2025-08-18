@@ -6,7 +6,7 @@ import HeroD from "/src/assets/about/aboutHero-d.webp"
 export default function Banner({ title, breadcrumbs = [] }) {
     return (
         <div id="banner-1106">
-            <div className="cs-container scroll-fade delay-2">
+            <div className="cs-container">
                 <span className="cs-int-title">{title}</span>
                 {breadcrumbs.length > 0 && (
                     <div className="cs-breadcrumbs">
@@ -22,7 +22,7 @@ export default function Banner({ title, breadcrumbs = [] }) {
                     </div>
                 )}
             </div>
-            <picture className="cs-background scroll-fade delay-2">
+            <picture className="cs-background">
                 <source
                     media="(max-width: 600px)"
                     srcSet={HeroM}

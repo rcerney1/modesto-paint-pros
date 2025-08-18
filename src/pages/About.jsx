@@ -17,7 +17,7 @@ export default function About() {
                     name="description"
                     content="Learn more about Modesto Paint Pros, your trusted local painters for residential and commercial projects throughout Stanislaus County. Quality work, reliable service."
                 />
-                <link rel="canonical" href="ttps://modestopaintpros.com/about" />
+                <link rel="canonical" href="https://modestopaintpros.com/about" />
             </Helmet>
             {/*  */}
             <Banner
