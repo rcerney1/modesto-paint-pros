@@ -17,6 +17,8 @@ export default function Service1() {
                     content="Get flawless interior painting for your Modesto home or business. We specialize in walls, ceilings, trim, and more—backed by licensed pros and free estimates"
                 />
                 <link rel="canonical" href="https://modestopaintpros.com/services/interior" />
+
+                <link rel="preload" as="image" href="/assets/about/aboutHero-m.webp" media="(max-width: 600px)" />
             </Helmet>
             <Banner
                 title="Interior Services"
