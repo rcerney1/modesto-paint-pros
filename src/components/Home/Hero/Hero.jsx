@@ -8,7 +8,7 @@ export default function Hero() {
   useScrollFadeIn(); // Initialize animation
 
   return (
-    <section id="hero-1623" className="scroll-fade delay-1">
+    <section id="hero-1623">
       <div className="cs-container">
         <div className="cs-content">
           <span className="cs-topper scroll-fade delay-2">
